@@ -1,0 +1,346 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+<div id="container" class="container">
+    <div id="head" class="head">
+        <h2 align="center">Index</h2>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="navigation-bar-left" align="left">
+                <a class="btn-sm btn-outline-primary" href="https://maynoothuniversity.ie">Home</a>
+            </div>
+            <div class="navigation-bar-left" align="left">
+                <a class="btn-sm btn-outline-primary" href="https://www.cs.nuim.ie/currentstudents">Internal</a>
+            </div>
+            <div class="navigation-bar-right" align="right">
+                <!--
+                <input type="button" class="btn-sm btn-outline-primary" value="login" id="login-btn" onclick="loginButton()">
+                -->
+                <a class="btn-sm btn-outline-primary" href="/login" id="a-login">Login</a>
+            </div>
+            <div>
+                <a class="btn-sm btn-outline-success" href="/management" id="a-management">Management</a>
+            </div>
+            <div>
+                <a class="btn-sm btn-outline-danger" href="/logout" id="a-logout">Log out</a>
+            </div>
+            <div>
+                <button class="btn btn-outline-success mr-sm-2" onclick="testTimeOut()">Test</button>
+            </div>
+        </nav>
+    </div>
+    <p>
+        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Link with href
+        </a>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Button with data-target
+        </button>
+    </p>
+    <div id="body-content" class="body-content">
+        <div id="category-grid" class="category-grid" align="left">
+            <h4>Category - All</h4>
+            <div><a class="btn-sm btn-outline-primary" href="">Clean</a></div>
+        </div>
+        <div class="category-grid-row row dropdown">
+            <div id="boxes-1" class="col-md-2">
+                <div class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton1" data-toggle="dropdown">
+                    Hardware</div>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="13">Printed circuit boards</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="14">Communication hard, interfaces and storage</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="15">Integrated circuits</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="16">Very large scale integration design</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="17">Power and energy</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="18">Electronic design automation</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="19">Hardware validation</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="20">Hardware test</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="21">Robustness</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="22">Emerging technologies</a></li>
+                </ul>
+            </div>
+            <div id="boxes-2" class="col-md-2">
+                <div class="dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown">
+                    Computer systems organization</div>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="23">Architectures</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="24">Embedded and cyber-physical systems</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="25">Real-time systems</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="26">Dependable and fault-rolerant systems and networks</a></li>
+                </ul>
+            </div>
+            <div id="boxes-3" class="col-md-2">
+                <div class="dropdown-toggle" type="button" id="dropdownMenuButton3" data-toggle="dropdown">
+                    Networks</div>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="27">Network Architectures</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="28">Network protocols</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="29">Network components</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="30">Network algorithms</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="31">Network performance evaluation</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="32">Network properties</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="33">Network service</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="34">Network types</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <div class="dropdown-toggle" type="button" id="dropdownMenuButton4" data-toggle="dropdown">
+                    Software and its engineering</div>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="35">Software organization and properties</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="36">Software notations and tools</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="37">Software creation and management</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <div class="dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown">
+                    Theory of computation</div>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="38">Models of computation</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="39">Formal languages and automata theory</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="40">Computational complexity and cryptography</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="41">Logic</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="42">Design and analysis of algorithms</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="43">Randomness, geometry and discrete structures</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="44">Theory and algorithms for application domains</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="45">Semantics and reasoning</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <div class="dropdown-toggle" type="button" id="dropdownMenuButton6" data-toggle="dropdown">
+                    Mathematics of computing</div>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="46">Discrete mathematics</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="47">Probability and statistics</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="48">Mathematical software</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="49">Information theory</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="50">Mathematical analysis</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="51">Continuous mathematics</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="category-grid-row row">
+            <div class="col-md-2">
+                <div class="dropdown-toggle" type="button" id="dropdownMenuButton7" data-toggle="dropdown">
+                    Information systems</div>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="52">Data management systems</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="53">Information storage systems</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="54">Information systems applications</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="55">World Wide Web</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="56">Information retrieval</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <div class="dropdown-toggle" type="button" id="dropdownMenuButton8" data-toggle="dropdown">
+                    Security and privacy</div>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="57">Cryptography</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="58">Formal methods and theory of security</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="59">Security services</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="60">Intrusion/anomaly detection and malware mitigation</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="61">Security in hardware</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="62">Systems security</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="63">Network security</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="64">Database and storage security</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="65">Software and application security</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="66">Human and societal aspects of security and privacy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <div class="dropdown-toggle" type="button" id="dropdownMenuButton9" data-toggle="dropdown">
+                    Human-centered computing</div>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="67">Human computer interaction (Hci)</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="68">Interaction design</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="69">Collaborative and social computing</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="70">Ubiquitous and mobile computing</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="71">Visualization</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="72">Accessibility</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <div class="dropdown-toggle" type="button" id="dropdownMenuButton10" data-toggle="dropdown">
+                    Computing methodologies</div>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="73">Symbolic and algebraic manipulation</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="74">Parallel computing methodologies</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="75">Artificial intelligence</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="76">Machine learning</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="77">Modeling and simulation</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="78">Computer graphics</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="79">Distributed computing methodologies</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="80">Concurrent computing methodologies</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <div class="dropdown-toggle" type="button" id="dropdownMenuButton11" data-toggle="dropdown">
+                    Applied computing</div>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="81">Electronic commerce</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="82">Enterprise computing</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="83">Physical sciences and engineering</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="84">Life and medical sciences</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="85">Law, social and behavioral sciences</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="86">Computer forensics</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="87">Arts and humanities</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="88">Computers in other domains</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="89">Operations research</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="90">Education</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="91">Document management and text processing</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <div class="dropdown-toggle" type="button" id="dropdownMenuButton12" data-toggle="dropdown">
+                    Social and Professional topics</div>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="92">Professional topics</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="93">Computing/ technology policy</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" id="94">User characteristics</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="category-grid-row row">
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <p class="card-text">Applied computing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <p class="card-text">Social and Professional topics</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <p class="card-text">Social and Professional topics</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <p class="card-text">Social and Professional topics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main-content" class="main-content">
+        <div id="right-bar" class="right-bar">
+            <!-- table做这三个模块 -->
+            <div id="submit-bar-submitted" class="submit-bar-submitted">
+                <h5 align="center">Submitted list:</h5>
+                <table class="table table-sm">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Project Id</th>
+                        <th scope="col">Status</th>
+                    </tr>
+                    </thead>
+                    <tbody id="table-tbody">
+                    <tr>
+                        <th scope="row">1</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--
+            <div id="submit-bar-approved" class="submit-bar-approved">
+                <span style="display: block; float: left; width: 50%;">Approved:</span>
+                <span style="display: block; float: right; width: 50%;">Operation:</span>
+                <div id="submit-bar-approved-list" align="center">You have not sign in</div>
+            </div>
+            -->
+
+            <div id="submit-bar-top" class="submit-bar-top">
+                <h5 align="center">Top List:</h5>
+                <ul id="submit-bar-top-ul" class="list-group">
+
+                </ul>
+            </div>
+        </div>
+        <div id="project-list" class="project-list">
+
+        </div>
+        <div id="page-content-info" class="page-content-info">
+            <nav aria-label="Search results pages">
+                <ul id="page-info-list" class="pagination pagination-sm justify-content-center">
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <span>test</span>
+        <ul>
+            <li onclick="test1()"><a href="https://www.baidu.com" onclick="return false;">test</a></li>
+        </ul>
+
+        <!-- 先执行外层onclick事件再执行内层 -->
+    </div>
+</div>
+<div id="loading" class="loading" align="center">
+</div>
+<div class="dropdown-menu">
+    <form class="px-4 py-3">
+        <div class="form-group">
+            <label for="exampleDropdownFormEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+        </div>
+        <div class="form-group">
+            <label for="exampleDropdownFormPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+            <label class="form-check-label" for="dropdownCheck">
+                Remember me
+            </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+    </form>
+</div>
+
+</body>
+</html>
